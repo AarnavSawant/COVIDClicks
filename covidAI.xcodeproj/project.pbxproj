@@ -15,6 +15,9 @@
 		84736C6D2472614C00BAECC7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84736C6B2472614C00BAECC7 /* LaunchScreen.storyboard */; };
 		84736C782472614D00BAECC7 /* covidAITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84736C772472614D00BAECC7 /* covidAITests.swift */; };
 		84736C832472614D00BAECC7 /* covidAIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84736C822472614D00BAECC7 /* covidAIUITests.swift */; };
+		84736C912472617C00BAECC7 /* NewMLModel3.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 84736C902472617C00BAECC7 /* NewMLModel3.mlmodel */; };
+		84736CD12473A47000BAECC7 /* COVIDViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84736CD02473A47000BAECC7 /* COVIDViewController.swift */; };
+		84736CD524749B5E00BAECC7 /* LearnViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84736CD424749B5E00BAECC7 /* LearnViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +52,9 @@
 		84736C7E2472614D00BAECC7 /* covidAIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = covidAIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		84736C822472614D00BAECC7 /* covidAIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = covidAIUITests.swift; sourceTree = "<group>"; };
 		84736C842472614D00BAECC7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84736C902472617C00BAECC7 /* NewMLModel3.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = NewMLModel3.mlmodel; sourceTree = "<group>"; };
+		84736CD02473A47000BAECC7 /* COVIDViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = COVIDViewController.swift; sourceTree = "<group>"; };
+		84736CD424749B5E00BAECC7 /* LearnViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearnViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,9 +105,12 @@
 		84736C5F2472614A00BAECC7 /* covidAI */ = {
 			isa = PBXGroup;
 			children = (
+				84736C902472617C00BAECC7 /* NewMLModel3.mlmodel */,
 				84736C602472614A00BAECC7 /* AppDelegate.swift */,
 				84736C622472614A00BAECC7 /* SceneDelegate.swift */,
+				84736CD424749B5E00BAECC7 /* LearnViewController.swift */,
 				84736C642472614A00BAECC7 /* ViewController.swift */,
+				84736CD02473A47000BAECC7 /* COVIDViewController.swift */,
 				84736C662472614A00BAECC7 /* Main.storyboard */,
 				84736C692472614C00BAECC7 /* Assets.xcassets */,
 				84736C6B2472614C00BAECC7 /* LaunchScreen.storyboard */,
@@ -261,7 +270,10 @@
 			files = (
 				84736C652472614A00BAECC7 /* ViewController.swift in Sources */,
 				84736C612472614A00BAECC7 /* AppDelegate.swift in Sources */,
+				84736C912472617C00BAECC7 /* NewMLModel3.mlmodel in Sources */,
+				84736CD12473A47000BAECC7 /* COVIDViewController.swift in Sources */,
 				84736C632472614A00BAECC7 /* SceneDelegate.swift in Sources */,
+				84736CD524749B5E00BAECC7 /* LearnViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -435,13 +447,15 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 3;
+				DEVELOPMENT_TEAM = RDGZU8G65V;
 				INFOPLIST_FILE = covidAI/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.covidAI;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.AarnavSawant.COVIDClicks;
+				PRODUCT_NAME = covidAI;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -452,13 +466,15 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 3;
+				DEVELOPMENT_TEAM = RDGZU8G65V;
 				INFOPLIST_FILE = covidAI/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.covidAI;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.AarnavSawant.COVIDClicks;
+				PRODUCT_NAME = covidAI;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
