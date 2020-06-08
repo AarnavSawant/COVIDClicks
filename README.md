@@ -10,5 +10,5 @@
 2. Within the covidAI folder, there are three view controllers for the Learn View, About View, and Main View.
 3. The App uses FeaturePrint Euclidean Distance in order to ensure the make sure the images it is receiving are close to the sample images
 
-![Screenshot](screenshot.png)
+![Screenshot](screenshot.jpg)
 
